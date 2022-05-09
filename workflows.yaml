@@ -1,0 +1,78 @@
+comment: 'Running main workflow with initial steps'
+before_all:
+  - comment: 'Install dependencies'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/install.sh'
+before_each:
+  - comment: 'Echo hello in console'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/scripts/bash/hello.sh'
+main_tasks:
+  - comment: 'CREATE'
+    subtasks:
+       - type: 'complex_sql'
+         file_location: './project/sql/create.sql'
+  - comment: 'DDL and CRUD'
+    subtasks:
+       - type: 'simple_sql'
+         file_location: './project/sql/ddl_crud.sql'
+  - comment: 'QUEIRIES'
+    subtasks:
+       - type: 'simple_sql'
+         file_location: './project/sql/queries.sql'
+  - comment: 'INDEX'
+    subtasks:
+       - type: 'simple_sql'
+         file_location: './project/sql/index.sql'
+  - comment: 'SIMPLE VIEW'
+    subtasks:
+       - type: 'simple_sql'
+         file_location: './project/sql/simple_view.sql'
+  - comment: 'COMPLEX VIEW'
+    subtasks:
+       - type: 'simple_sql'
+         file_location: './project/sql/complex_view.sql'
+  - comment: 'PROCEDURES'
+    subtasks:
+       - type: 'complex_sql'
+         file_location: './project/sql/procedures.sql'
+  - comment: 'TRIGGERS'
+    subtasks:
+       - type: 'complex_sql'
+         file_location: './project/sql/triggers.sql'
+  - comment: 'DELETE'
+    subtasks:
+       - type: 'simple_sql'
+         file_location: './project/sql/drop.sql'
+  - comment: 'Echo hello and goodbye'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/scripts/bash/hello.sh'
+      - type: 'shell'
+        file_location: './project/scripts/bash/goodbye.sh'
+after_each:
+  - comment: 'Echo goodbye in console'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/scripts/bash/goodbye.sh'
+
+---
+
+comment: 'No queries, only shell scripts'
+main_tasks:
+  - comment: 'Echo hello and goodbye'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/scripts/bash/hello.sh'
+      - type: 'shell'
+        file_location: './project/scripts/bash/goodbye.sh'
+  - comment: 'Run Python script'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/scripts/python/run.sh'
+  - comment: 'psycopg example'
+    subtasks:
+      - type: 'shell'
+        file_location: './project/scripts/python/psycopg/run.sh'
