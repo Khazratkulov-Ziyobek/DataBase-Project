@@ -8,6 +8,8 @@
     Project on the course "DataBases", PSAMI, MIPT, 2022 
   </p>
 
+
+
 <!--  
 Badges
 <p>
@@ -45,6 +47,8 @@ Badges
 
 <br />
 
+
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">:notebook_with_decorative_cover:Table of Contents</h2></summary>
@@ -78,6 +82,8 @@ Badges
     <li><a href="#gem-resources">Ресурсы</a></li>
   </ol>
 </details>
+
+
 
 <!-- About the Project -->
 ## :star2: О проекте
