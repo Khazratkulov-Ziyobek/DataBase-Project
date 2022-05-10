@@ -200,47 +200,103 @@ away_no | Количество голов забивших гостевой ко
 
 Далее тут будет приведены примеры интересных sql запросов и ответов на них. Напомню, ещё раз, что Я создавал модель для чемпионата лучших европейских команд.
 Пример команды представлены ниже:
+
+
 ![picture](pics/create.png)
+
+
 ![picture](pics/insert_stadiums.png)
+
+
 ![picture](pics/insert_teams.png)
+
+
 ![picture](pics/select_teams.png)
+
+
 ![picture](pics/result_stadium.png)
+
+
 ![picture](pics/result_team.png)
 
 Рассмотрим интересные примеры запросов к базу данных.
 * Лучшие бомбардиры после второго тура:
+
+
 ![picture](pics/best_forward.png)
+
+
 ![picture](pics/forward_result.png)
+
+
 * Результаты, матчей в которых команды выиграли у себя дома:
 ![picture](pics/home_won.png)
+
+
 ![picture](pics/home_won_result.png)
+
 
 
 Переходим к представлениям:
 
 * Рассмотрим один из интересных сложных представлений. Рассмотрим игроков которые пришли из Академии своего собственного клуба.
+
+
 ![picture](pics/academy.png)
+
+
 ![picture](pics/academy_result.png)
+
+
 * Посмотрим ещё игроков у которых контракт с клубом заканчиваются в этом году.
+
+
 ![picture](pics/contract.png)
+
+
 ![picture](pics/contract_result.png)
+
+
 * Один из самых сложных и интересных представлений. [На который Я потратил час :) ].Турнирная таблица после двух матчей.
 
 
 ![picture](pics/after_second_tour.png)
+
+
 ![picture](pics/after_second_tour_result.png)
 
+
 Переходим к хранимым процедурам и триггерам. Я создал хранимую процедуру обновления состава команды и контракт с игроками. Ниже показан пример реализации.
+
+
 ![picture](pics/update_player.png)
+
+
 ![picture](pics/update_contract_player.png)
+
+
 ![picture](pics/procedure.png)
+
+
 ![picture](pics/procedure_result.png)
 
+
+
 Я создал триггеры для добавления новой команды и для удаления команды. Ниже приведен пример.
+
+
 ![picture](pics/insert_trigger.png)
+
+
 ![picture](pics/delete_trigger.png)
+
+
 ![picture](pics/triggers.png)
+
+
 ![picture](pics/result_trigger.png)
+
+
 
 <!-- Problems -->
 ## 	:art: Проблемы
