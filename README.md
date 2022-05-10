@@ -200,14 +200,12 @@ away_no | Количество голов забивших гостевой ко
 
 Далее тут будет приведены примеры интересных sql запросов и ответов на них. Напомню, ещё раз, что Я создавал модель для чемпионата лучших европейских команд.
 Пример команды представлены ниже:
-<br>
 ![picture](pics/create.png)
 ![picture](pics/insert_stadiums.png)
 ![picture](pics/insert_teams.png)
 ![picture](pics/select_teams.png)
 ![picture](pics/result_stadium.png)
 ![picture](pics/result_team.png)
-<br>
 
 Рассмотрим интересные примеры запросов к базу данных.
 * Лучшие бомбардиры после второго тура:
@@ -216,7 +214,6 @@ away_no | Количество голов забивших гостевой ко
 * Результаты, матчей в которых команды выиграли у себя дома:
 ![picture](pics/home_won.png)
 ![picture](pics/home_won_result.png)
-<br>
 Переходим к представлениям:
 
 * Рассмотрим один из интересных сложных представлений. Рассмотрим игроков которые пришли из Академии своего собственного клуба.
@@ -230,14 +227,12 @@ away_no | Количество голов забивших гостевой ко
 
 ![picture](pics/after_second_tour.png)
 ![picture](pics/after_second_tour_result.png)
-<br>
 
 Переходим к хранимым процедурам и триггерам. Я создал хранимую процедуру обновления состава команды и контракт с игроками. Ниже показан пример реализации.
 ![picture](pics/update_player.png)
 ![picture](pics/update_contract_player.png)
 ![picture](pics/procedure.png)
 ![picture](pics/procedure_result.png)
-<br>
 
 Я создал триггеры для добавления новой команды и для удаления команды. Ниже приведен пример.
 ![picture](pics/insert_trigger.png)
