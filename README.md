@@ -226,6 +226,7 @@ away_no | Количество голов забивших гостевой ко
 ![picture](pics/contract.png)
 ![picture](pics/contract_result.png)
 * Один из самых сложных и интересных представлений. [На который Я потратил час :) ]. Турнирная таблица после двух матчей.
+<br>
 ![picture](pics/after_second_tour.png)
 ![picture](pics/after_second_tour_result.png)
 <br>
