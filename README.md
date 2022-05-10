@@ -53,35 +53,27 @@ Badges
 <details open="open">
   <summary><h2 style="display: inline-block">:notebook_with_decorative_cover:Table of Contents</h2></summary>
   <ol>
-    <li>
-      <a href="#star2-about-the-project">О проекте</a>
-      <ul>
-        <li><a href="#dart-goals">Цели</a></li>
-        <li><a href="#space_invader-motivation">Мотивация</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#toolbox-conceptual_model">Концептуальная модель</a>
-      <ul>
-        <li><a href="#bangbang-relations">Сущности</a></li>
-      </ul>
-    </li>
-    <li><a href="#gear-logical_model">Логическая модель</a></li>
-    <li><a href="#test_tube-physical_model">Физическая модель</a></li>
-    <li>
-      <a href="#running-practical_part">Практическая часть</a>
-      <ul>
-        <li><a href="#scroll-files_of_project">Файлы проекта</a></li>
-        <li><a href="#camera-examples">Примеры запросов</a></li>
-      </ul>
-    </li>
-    <li><a href="#art-problems">Проблемы</a></li>
-    <li><a href="#compass-conclusion">Итоги</a></li>
-    <li><a href="#warning-license">License</a></li>
-    <li><a href="#handshake-contact">Contacts</a></li>
-    <li><a href="#gem-resources">Ресурсы</a></li>
+  - [О проекте](#star2-about-the-project)
+    * [Цели](#dart-goals)
+    * [Мотивация](#space_invader-motivation)
+  - [Концептуальная модель](#toolbox-conceptual_model)
+    * [Сущности](#bangbang-relations)
+  - [Логическая модель](#gear-logical_model)
+  - [Физическая модель](#test_tube-physical_model)
+  - [Практическая часть](#running-practical_part)
+    * [Файлы проекта](#scroll-files_of_project)
+    * [Примеры запросов](#camera-examples)
+  - [Проблемы](#art-problems)
+  - [Итоги](#compass-conclusion)
+  - [License](#warning-license)
+  - [Contacts](#handshake-contact)
+  - [Ресурсы](#gem-resources)
   </ol>
 </details>
+
+<!-- Table of Contents -->
+# :notebook_with_decorative_cover: Table of Contents
+
 
 
 
