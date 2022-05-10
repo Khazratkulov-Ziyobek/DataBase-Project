@@ -10,8 +10,7 @@
 
 
 
-<!--  
-Badges
+<!-- Badges -->
 <p>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
@@ -43,10 +42,8 @@ Badges
     <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
   </h4>
 </div>
--->
 
 <br />
-
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
