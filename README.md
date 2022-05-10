@@ -48,33 +48,24 @@ Badges
 <br />
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">:notebook_with_decorative_cover:Table of Contents</h2></summary>
-  <ol>
-  - [О проекте](#star2-about-the-project)
-    * [Цели](#dart-goals)
-    * [Мотивация](#space_invader-motivation)
-  - [Концептуальная модель](#toolbox-conceptual_model)
-    * [Сущности](#bangbang-relations)
-  - [Логическая модель](#gear-logical_model)
-  - [Физическая модель](#test_tube-physical_model)
-  - [Практическая часть](#running-practical_part)
-    * [Файлы проекта](#scroll-files_of_project)
-    * [Примеры запросов](#camera-examples)
-  - [Проблемы](#art-problems)
-  - [Итоги](#compass-conclusion)
-  - [License](#warning-license)
-  - [Contacts](#handshake-contact)
-  - [Ресурсы](#gem-resources)
-  </ol>
-</details>
-
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
 
-
+- [О проекте](#star2-about-the-project)
+  * [Цели](#dart-goals)
+  * [Мотивация](#space_invader-motivation)
+- [Концептуальная модель](#toolbox-conceptual_model)
+  * [Сущности](#bangbang-relations)
+- [Логическая модель](#gear-logical_model)
+- [Физическая модель](#test_tube-physical_model)
+- [Практическая часть](#running-practical_part)
+  * [Файлы проекта](#scroll-files_of_project)
+  * [Примеры запросов](#camera-examples)
+- [Проблемы](#art-problems)
+- [Итоги](#compass-conclusion)
+- [License](#warning-license)
+- [Contacts](#handshake-contact)
+- [Ресурсы](#gem-resources)
 
 
 <!-- About the Project -->
